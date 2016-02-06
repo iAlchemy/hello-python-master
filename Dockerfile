@@ -1,4 +1,4 @@
-FROM resin/raspberrypi-python
+FROM resin/rpi-raspbian:jessie
 
 # Enable systemd
 ENV INITSYSTEM on
